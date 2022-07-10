@@ -1,0 +1,22 @@
+{% include "hospital/navbar.html" %}
+{% block content %}
+</br></br>
+<center>
+	<style>
+    h1 { color: #FF0000; }
+  </style>
+</br></br>
+<h1>Hola!! Welcome back!!</h1>
+	<div class="p-5">
+ <button class="btn btn-outline-warning"><a href="/adminlogin" class="nav-item nav-link text-danger">Admin</a></button>
+</div>
+ <button class="btn btn-outline-warning"><a href="/doctorlogin" class="nav-item nav-link text-danger">Doctor</a></button>
+ <div class="p-5">
+ <button class="btn btn-outline-warning"><a href="/patientlogin" class="nav-item nav-link text-danger">Patient</a></button>
+ <div class="p-5">
+ <button class="btn btn-outline-warning"><a href="/pharmalogin" class="nav-item nav-link text-danger">Pharmacist</a></button>
+</div>
+</div>
+</center>
+
+ {%endblock content%}

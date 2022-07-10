@@ -1,0 +1,22 @@
+{% include "hospital/navbar.html" %}
+{% block content %}
+</br></br>
+<center>
+	<style>
+    h1 { color: #FF0000; }
+  </style>
+  </br></br>
+	<h1> Welcome to Hospi!! Thanks for trusting us </h1>
+	<div class="p-5">
+ <button class="btn btn-outline-warning"><a href="/adminsignup" class="nav-item nav-link text-danger" >Admin</a></button>
+</div>
+ <button class="btn btn-outline-warning"><a href="/doctorsignup" class="nav-item nav-link text-danger">Doctor</a></button>
+ <div class="p-5">
+ <button class="btn btn-outline-warning"><a href="/patientsignup" class="nav-item nav-link text-danger">Patient</a></button>
+ <div class="p-5">
+  <button class="btn btn-outline-warning"><a href="/pharmasignup" class="nav-item nav-link text-danger">Pharmacist</a></button>
+  </div>
+</div>
+</center>
+
+ {%endblock content%}
